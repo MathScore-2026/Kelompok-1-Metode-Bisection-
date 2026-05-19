@@ -49,15 +49,19 @@ class Bisection:
         plt.show()
 
 
+<<<<<<< HEAD
 # =========================
 # TEST 1
 # =========================
+=======
+>>>>>>> 42a538a814a6310ae8d9eea9ad4764b391cbdefd
 def f(x):
     return x**2 - 4
 
 b = Bisection(f, 0, 3)
 akar = b.solve()
 
+<<<<<<< HEAD
 print("Akar:", akar)
 b.print_table()
 b.plot()
@@ -66,12 +70,24 @@ b.plot()
 # =========================
 # TEST 2
 # =========================
+=======
+b.print_table()
+print("Akar:", akar)
+b.plot()
+
+
+>>>>>>> 42a538a814a6310ae8d9eea9ad4764b391cbdefd
 def g(x):
     return x**3 - x - 2
 
 b2 = Bisection(g, 1, 2)
 akar2 = b2.solve()
 
+<<<<<<< HEAD
 print("Akar:", akar2)
 b2.print_table()
+=======
+b2.print_table()
+print("Akar:", akar2)
+>>>>>>> 42a538a814a6310ae8d9eea9ad4764b391cbdefd
 b2.plot()
